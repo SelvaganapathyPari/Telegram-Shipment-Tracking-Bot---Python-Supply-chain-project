@@ -13,7 +13,7 @@ import requests
 
 # Token provided by @ BotFather
 TOKEN = '5137469987:AAGD0oqZ9JFYnyGhjN7UExX41EUJlkwpuUs'
-# Your Heroku App Page 
+#  Heroku App Page
 APP_NAME = 'https://trucktrack12bot.herokuapp.com/'
 # Port
 PORT = int(os.environ.get('PORT', '8443'))

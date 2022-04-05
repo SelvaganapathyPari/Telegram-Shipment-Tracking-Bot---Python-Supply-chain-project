@@ -17,8 +17,8 @@ def mail(location, delivery_number, img_link):
 
     # Infos
     sender_address = 'croclistinfo@gmail.com'
-    sender_pass = 'gulcfbwalauhkhhk'
-    receiver_address = 'mail2selva12@gmail.com'
+    sender_pass = 'gulcfbwalauhkhhk' #apppassword
+    receiver_address = ['mail2selva12@gmail.com','kiruthika834@gmail.com']
 
     #Setup the MIME
     message = MIMEMultipart()
@@ -28,10 +28,10 @@ def mail(location, delivery_number, img_link):
     message.attach(MIMEText(mail_content, 'html'))
 
     #Create SMTP session for sending the mail
-    session = smtplib.SMTP_SSL('smtp.gmail.com', 465) #use gmail with port
+    session = smtplib.SMTP_SSL('smtp.gmail.com', 465) #connecting with gmail
     # session.starttls() #enable security
     session.ehlo()
-    session.login(sender_address, sender_pass) #login with mail_id and password
+    session.login(sender_address, sender_pass)
     text = message.as_string()
     session.sendmail(sender_address, receiver_address, text)
     session.quit()

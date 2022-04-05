@@ -18,7 +18,7 @@ def mail(location, delivery_number, img_link):
     # Infos
     sender_address = 'croclistinfo@gmail.com'
     sender_pass = 'gulcfbwalauhkhhk' #apppassword
-    receiver_address = ['mail2selva12@gmail.com','kiruthika834@gmail.com']
+    receiver_address = 'mail2selva12@gmail.com'
 
     #Setup the MIME
     message = MIMEMultipart()

@@ -2,9 +2,9 @@
 In this Python project we are designing a Telegram Bot that will interact with truck drivers and help supply chain professionals to track your shipments easily.
 
 ## Solving a problem which i have faced many times
-As a supply chain professional you have to track lot metrics including critical items for production, placing new orders, managing past dues, rescheduling part numbers which are not currently required and more. Mostly important you should also track the incoming shipments from supplier and many times the scheduled items/ shipments needed much more attention as these items could be scheduled for next day production and it is very critical to track them in regular intervals.
-
-As a supply chain professionals i have worked with both national and international suppliers, and tracking the critical shipments is one of the biggest challenges.
+- As a supply chain professional you have to track lot metrics including critical items for production, placing new orders, managing past dues, rescheduling part numbers which are not currently required and more. 
+- Mostly important you should also track the incoming shipments from supplier and many times the scheduled items/ shipments needed much more attention as these items could be scheduled for next day production and it is very critical to track them in regular intervals.
+- As a supply chain professionals i have worked with both national and international suppliers, and tracking the critical shipments is one of the biggest challenges.
 
 ### Let me tell you about a real situation I encountered while working at EATON: 
 There was one item (SKU) that was critical for the next day's production, and all resources were planned around it.

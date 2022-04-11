@@ -1,14 +1,22 @@
-## Build a Real-Time Shipment Tracking Tool using a Telegram Bot 🚚
-*Design a Telegram Bot that will interact with truck drivers to track your shipments and provide real-time visibility of your transportation performance*
+## Real-Time Shipment Tracking Tool using  Telegram Bot
+In this Python project we are designing a Telegram Bot that will interact with truck drivers and help supply chain professionals to track your shipments easily.
 
-### Medium Article
-In this [Medium Article](https://towardsdatascience.com/build-a-real-time-shipment-tracking-tool-using-a-telegram-bot-beb6ab29fca3), we will implement a simple, cheap and easy-to-implement solution to track your shipments that
+## Solving a problem which i have faced many times
+As a supply chain professional you have to track lot metrics including critical items for production, placing new orders, managing past dues, rescheduling part numbers which are not currently required and more. Mostly important you should also track the incoming shipments from supplier and many times the scheduled items/ shipments needed much more attention as these items could be scheduled for next day production and it is very critical to track them in regular intervals.
+
+As a supply chain professionals i have worked with both national and international suppliers, and tracking the critical shipments is one of the biggest challenges.
+
+### Let me tell you a real situation which i have faced- During when i was working at EATON, there is one item (SKU) which was very critical for the next day production and every resources were planned based on that incoming item. And my job is to closely track and make sure it arrives ontime and move to the production. And, my manager asked to closely track the shipment for every 2 hours and make sure it arrives without any hassle. 
+
+### so i need to constantly connect with truck driver and get shipment details on regular basis. but in reality it might not be as easy or practical thing to do, because though the arrival material is critical for us(company), we shouldn't force our thougts on others( truck drivers or any carriers), as it might impact their productivity. this is where the telegram bot could help supply chain professionals. 
+
+### Benefits of this telegram bot
+- simple, cheap and easy-to-implement solution to track your shipments 
 - Does not require additional IT development for your carriers
 - Easily integrates into the current transportation processes
-- Reduces admin workload for your logistics team
 - Does not impact drivers’ productivity
 - Does not require additional equipment
-- Provides visibility, real-time tracking and transparency
+- Easily Monitor whether the shipment is damaged at loading end or while in transit
 
 ### How does it work?
 Scenario
@@ -53,10 +61,5 @@ Procfile
 requirements.txt
 ```
 
-#### 4. Test it :)
-
-## About me 🤓
-Senior Supply Chain Engineer with an international experience working on Logistics and Transportation operations. \
-Have a look at my portfolio: [Data Science for Supply Chain Portfolio](https://samirsaci.com) \
-Data Science for Warehousing📦, Transportation 🚚 and Demand Forecasting 📈 
-
+#### 4. Deployment
+Open telegram app and search Trucktrack_12bot

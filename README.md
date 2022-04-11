@@ -1,4 +1,4 @@
-## Real-Time Shipment Tracking Tool using  Telegram Bot
+## Shipment Tracking Tool using  Telegram Bot
 In this Python project we are designing a Telegram Bot that will interact with truck drivers and help supply chain professionals to track your shipments easily.
 
 ## Solving a problem which i have faced many times

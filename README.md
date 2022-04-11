@@ -47,3 +47,5 @@ APP_NAME: Trucktrack_12bot
 
 #### 4. Deployment
 Open telegram app and search Trucktrack_12bot
+
+##### Credits to samirsaci for inspiration
